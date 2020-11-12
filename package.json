@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' index.ts"
   },
   "author": "",
   "dependencies": {
-    "airlock-server": "^0.2.3"
+    "airlock-server": "^0.2.3",
+    "tslib": "^2.0.3"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
 }
