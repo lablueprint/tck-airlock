@@ -1,3 +1,6 @@
+# Airlock config
+config
+
 # Logs
 logs
 *.log
