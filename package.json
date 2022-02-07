@@ -8,7 +8,7 @@
   },
   "author": "",
   "dependencies": {
-    "airlock-server": "^0.2.3",
+    "airlock-server": "^0.2.16",
     "tslib": "^2.0.3"
   },
   "license": "ISC",
